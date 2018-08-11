@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BLRI.Mvc", "BLRI.Mvc.csproj", "{D327616D-811D-4DBE-B32D-6C0889D49948}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D327616D-811D-4DBE-B32D-6C0889D49948}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D327616D-811D-4DBE-B32D-6C0889D49948}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D327616D-811D-4DBE-B32D-6C0889D49948}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D327616D-811D-4DBE-B32D-6C0889D49948}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F8CF6F84-7177-4A22-9A1F-B23DC0912448}
+	EndGlobalSection
+EndGlobal

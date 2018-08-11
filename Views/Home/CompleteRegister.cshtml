@@ -1,0 +1,39 @@
+﻿@model CompleteRegisterViewmodel
+
+<div class="container col-sm-9">
+    <h1 classs="mt-4">Thank you for registering to BestLifeRewarded Program</h1>
+    <div class="card m-4" style="width: 18rem;">
+        <div class="card-body">
+            <h5 class="card-title">Here are the summary details</h5>
+        </div>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item"><strong>Customer Name:</strong> @Model.CustomerName</li>
+            <li class="list-group-item"><strong>Username:</strong> @Model.Username</li>
+            <li class="list-group-item"><strong>Membership Type:</strong> 
+             @if (Model.SubscriptionType == 1)
+                        {
+
+                            @("30 Day Free Trial")
+                        }
+
+                        @if (Model.SubscriptionType == 2)
+                        {
+                            @("Monthly Membership")
+                        }
+                        @if (Model.SubscriptionType == 3)
+                        {
+
+                            @("Three-Month Membership")
+                        }
+
+                        @if (Model.SubscriptionType == 4)
+                        {
+                            @("Annual Membership")
+                        }</li>
+        </ul>
+        <div class="card-body">
+            <h5><strong>Registration Date:</strong> @Model.RegisterDate</h5>
+        </div>
+    </div>
+</div>
+
